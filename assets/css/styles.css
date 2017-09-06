@@ -1,0 +1,73 @@
+
+#container {
+	margin: auto;
+	width: 50%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+
+.options div{
+	background: #f4f4f2;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 9px; 
+	height: 20px;
+}
+
+.options div:hover {
+	background: #ededed;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+input {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#scoreboard {
+	display: none;
+	text-align: center;
+	line-height: 20px;
+	padding: 7px 0;
+	font-size: 18px;
+	margin:10px 0;
+	background: #ef5f45;
+}
+
+.checked{
+    background-color:#241009;
+}
+
+
+#box {
+	margin: 10px 0;
+	width: 120px;
+	-webkit-transition: all .4s;
+	background: #e3e3e3;
+	line-height: 32px;
+	text-align: center;
+	font-weight: 700;
+	color: #333;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5), 
+				1px 1px 5px rgba(0,0,0,0.3) 
+
+}
+
+#box:hover {
+	background: #333;
+	color: #e3e3e3;
+	cursor: pointer; 
+	cursor: hand;
+}
