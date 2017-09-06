@@ -1,6 +1,6 @@
 var correct = ["10", "1", "120", "594", "1000", "144"];
 
-
+// Checks if radio is checked or not
 $(".options div").on("click", function() {
 	var check = $(this).attr("class");
 	$("." + check).prop("checked", true);
